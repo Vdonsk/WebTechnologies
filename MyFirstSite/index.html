@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 Seminar</title>
+    <!-- crtl + / -->
+    <!-- <style>
+        h1{
+            color: chartreuse;
+        }
+    </style> -->
+    <link rel="stylesheet" href="./assets/style.css">
+    <script>
+       // alert('Всем привет !');
+       let el1 = document.getElementById('el1');
+       console.log(el1);
+    </script>
+    <script>
+        let name = prompt('Введи имя пользователя: ');
+        alert('Привет' + ', ' + name + '!');  
+    </script>
+    <script>
+        let age = Number(prompt('Введи возраст: '));
+
+        switch (age) {
+            case 18 : {
+                alert('Вы совершенолетний, все можно');
+                break;
+            }
+            case 10: {
+                alert('Вам надо учить уроки');
+                break;
+            }
+            case 30: {
+                alert('Ложитесь спать, завтра на работу');
+                break;
+            }
+            default: {
+               alert('Мы не знаем что вам делать');
+            }
+        }
+    </script>
+</head>
+<body>
+    <section>
+        <div class="box">
+            <h1 style="font-size: 50px; color: blue;">Всем привет!</h1>
+            <p class="text" id="el1">Мoй первый сайт</p>
+        </div>
+        <div class="box">
+            <p class="text" >Сегодня вторник</p>
+        </div>
+        <img src="https://avatars.dzeninfra.ru/get-zen_doc/34175/pub_5cea2361585c2f00b5c9cb0b_5cea310a752e5b00b25b9c01/scale_1200" width="500" height="500" alt="Котик">
+        <button class="btn" id="btn1">Нажми на меня !</button>
+    </section>
+    <!-- <script>
+     alert('Всем привет !');
+        let el2 = document.getElementById('el1');
+        console.log(el2);
+        el2.classList.add('ice'); // добавили класс
+        el2.classList.remove('ice'); // удалили класс
+    </script> -->
+    <script src="./assets/script.js"></script>
+</body>
+</html>
