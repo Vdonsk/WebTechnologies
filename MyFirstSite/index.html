@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,9 +13,9 @@
     </style> -->
     <link rel="stylesheet" href="./assets/style.css">
     <script>
-       // alert('Всем привет !');
-       let el1 = document.getElementById('el1');
-       console.log(el1);
+        // alert('Всем привет !');
+        let el1 = document.getElementById('el1');
+        console.log(el1);
     </script>
     <script>
         let name = prompt('Введи имя пользователя: ');
@@ -24,7 +25,7 @@
         let age = Number(prompt('Введи возраст: '));
 
         switch (age) {
-            case 18 : {
+            case 18: {
                 alert('Вы совершенолетний, все можно');
                 break;
             }
@@ -37,11 +38,12 @@
                 break;
             }
             default: {
-               alert('Мы не знаем что вам делать');
+                alert('Мы не знаем что вам делать');
             }
         }
     </script>
 </head>
+
 <body>
     <section>
         <div class="box">
@@ -49,9 +51,10 @@
             <p class="text" id="el1">Мoй первый сайт</p>
         </div>
         <div class="box">
-            <p class="text" >Сегодня вторник</p>
+            <p class="text">Сегодня вторник</p>
         </div>
-        <img src="https://avatars.dzeninfra.ru/get-zen_doc/34175/pub_5cea2361585c2f00b5c9cb0b_5cea310a752e5b00b25b9c01/scale_1200" width="500" height="500" alt="Котик">
+        <img src="https://avatars.dzeninfra.ru/get-zen_doc/34175/pub_5cea2361585c2f00b5c9cb0b_5cea310a752e5b00b25b9c01/scale_1200"
+            width="500" height="500" alt="Котик">
         <button class="btn" id="btn1">Нажми на меня !</button>
     </section>
     <!-- <script>
@@ -61,6 +64,14 @@
         el2.classList.add('ice'); // добавили класс
         el2.classList.remove('ice'); // удалили класс
     </script> -->
+    <form id="form">
+        <input type="text" placeholder="Введите имя">
+        <input type="submit" value="Отправте запрос">
+    </form>
+    <section id="users"></section>
     <script src="./assets/script.js"></script>
+    <script src="./assets/scriptGet.js"></script>
+    <script src="./assets/scriptPost.js"></script>
 </body>
+
 </html>

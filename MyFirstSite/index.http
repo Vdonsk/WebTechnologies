@@ -1,0 +1,15 @@
+GET https://nalog.ru
+
+###
+
+GET https://jsonplaceholder.typicode.com/users/
+
+###
+
+POST https://jsonplaceholder.typicode.com/users/
+
+Content-Type: application/json
+{
+    "name": "Kamila",
+    "value": 5
+}
